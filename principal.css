@@ -1,11 +1,109 @@
-.colorPrincipal {
-    color: navy;
+header {
+    background-color: #2e3e59;
+    width: 100%;
+    float: left;
+    height: 100px;
 }
 
 body {
-    background-color: white;
+    background-color: silver;
 }
 
 #imagenLogo {
-    width: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 50px;
+    background-color: #2e3e59;
+    float: left;
+}
+
+.menu {
+    background-color: #2e3e59;
+    display: flex;
+    float: right;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.menu a {
+    background-color: #c2403e;
+    text-align: center;
+    padding: 10px;
+    margin-top: 28px;
+    color: white;
+    text-decoration: none;
+}
+
+#titulo {
+    margin-left: 10px;
+    float: left;
+    text-align: center;
+    margin-top: 28px;
+    color: white;
+}
+
+.section {
+    float: left;
+    width: 60%;
+    background-color: white;
+}
+
+.separator {
+    border-top: 3px solid black;
+    background-color: black;
+    height: 0.5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+aside {
+    background-color:  #c4821f !important;
+    float: left;
+    width: 40%;
+}
+
+footer {
+    clear: both;
+    background-color: #2e3e59;
+    width: 100%;
+    height: 100px;
+}
+
+.separator1 {
+    
+}
+
+.menu1 {
+    background-color: #2e3e59;
+    display: flex;
+    float: left;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.menu1 a {
+    background-color: #c2403e;
+    text-align: center;
+    padding: 10px;
+    margin-top: 28px;
+    color: white;
+    text-decoration: none;
+}
+.piePagina {
+    background-color: #2e3e59;
+    display: flex;
+    float: right;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.piePagina a {
+    background-color:  #c4821f;
+    text-align: center;
+    padding: 10px;
+    margin-top: 28px;
+    color: white;
+    text-decoration: none;
 }
