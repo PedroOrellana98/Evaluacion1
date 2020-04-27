@@ -44,8 +44,9 @@ body {
 
 .section {
     float: left;
-    width: 60%;
+    width: 70%;
     background-color: white;
+    height: 400px;
 }
 
 .separator {
@@ -59,7 +60,8 @@ body {
 aside {
     background-color:  #c4821f !important;
     float: left;
-    width: 40%;
+    width: 30%;
+    height: 400px;
 }
 
 footer {
@@ -70,7 +72,23 @@ footer {
 }
 
 .separator1 {
-    
+    background-color: #bf6b1d;
+    height: 130px;
+    padding: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.separator2 {
+    background-color: #bf6b1d;
+    height: 130px;
+    padding: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .menu1 {
